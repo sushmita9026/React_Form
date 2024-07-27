@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f4f4f4;
+  /* color: #333; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.maindiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 90vh;
+}
+
+.form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 660px;
+}
+.Add{
+ margin: 10px;
+ font-size: 30px;
+}
+
+.hobbies li {
+  margin: 13px;
+  list-style-type: none;
+}
+
+.submitbtn {
+  padding: 14px;
+  border-radius: 3px;
+  font-size: 19px;
+  background-color: #28a745;
   color: white;
+  border: none;
+  /* cursor: pointer; */
 }
 
-.App-link {
-  color: #61dafb;
+.submitbtn:hover {
+  background-color: #218838;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hobbiebtn {
+  font-size: 16px;
+  padding: 15px ;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  /* cursor: pointer; */
+}
+
+.hobbiebtn:hover {
+  background-color: #0056b3;
+}
+
+.input {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 22px);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.outputdiv {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  width: 100%;
+  max-width: 660px;
+}
+
+h1, h2 {
+  margin-bottom: 50px;
 }
